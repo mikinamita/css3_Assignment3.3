@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Html List</title>
+<meta charset="UTF-8">
+<script src=“https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js”></script>
+<style>
+#main{
+height:690px;
+width:500px;
+background-color:blue;
+}
+.detail{
+width:350px;
+border-radius:10px;
+background-color:lightblue;
+margin-left:75px;
+
+}
+.detail1{
+width:350px;
+border-radius:10px;
+background-color:lightblue;
+margin-left:75px;
+margin-top:5px;
+}
+
+
+#sb{
+border-radius:10px;
+margin-left:200px;
+margin-top:5px;
+padding:4px;
+}
+.l1 {
+  
+    text-align:left;
+    padding-right:50px;
+}
+.l3 {
+  
+    text-align:left;
+    padding-right:25px;
+}
+.l2 {
+  
+    text-align:left;
+    padding-right:40px;
+	
+}
+.l4 {
+  
+    text-align:left;
+    padding-right:31px;
+}
+
+</style>
+</head>
+<body>
+<div id="main">
+<legend style="padding-top:10px;padding-bottom:10px">Step 1:Your Details:</legend>
+<div style="padding:10px" class="detail">
+<label class="l1">Name:</label><input type="text" name="name" size="30" maxlength="100" value="FirstName AndLast Name"><br/>
+</div>
+<div style="padding:10px" class="detail1">
+<label class="l1">Email:</label><input type="email" name="email" size="30" maxlength="100" value="example@domain.com"><br />
+</div>
+<div style="padding:10px" class="detail1">
+<label class="l1">Phone:</label><input type="text" name="phone" size="30" maxlength="30" value="e.g +912345678901"><br />
+</div>
+<legend style="padding-top:10px;padding-bottom:10px">Step 1:Delivery Address:</legend>
+<div style="padding:10px" class="detail">
+<label class="l2">Address</label><textarea name="tx1" rows="5" cols="25" ></textarea></br></br>
+</div>
+<div style="padding:10px" class="detail1">
+<label class="l3">Postcode:</label> <input type="text" name="post" size="30" maxlength="100">
+</div>
+<div style="padding:10px" class="detail1">
+<label class="l4">Country: </label><input type="text" name="country" size="30" maxlength="100"><br/>
+</div>
+<legend style="padding-top:10px;padding-bottom:10px">Step 1:Card Details:</legend>
+<div style="padding:10px" class="detail">
+<label>Cardtype</label><br> <input type="radio" name="c1"><img src="visa.jpg" height="15px" width="25px">VISA
+<input type="radio" name="c1"><img src="master.png" height="15px" width="25px">MASTER CARD
+<input type="radio" name="c1"><img src="amex.jpg" height="15px" width="25px">AMEX
+</div>
+<div style="padding:10px" class="detail1">
+<label>Card Number: </label><input type="text" name="post" size="30" maxlength="100"><br/>
+</div>
+<div style="padding:10px" class="detail1">
+<label>Security code:</label> <input type="text" name="post" size="30" maxlength="100"><br/>
+</div>
+<div style="padding:10px" class="detail1">
+<label>Name on card:</label> <input type="text" name="post" size="30" maxlength="100"><br/>
+</div>
+<input type="submit" name="submit" value="Buy it!" id="sb" >
+</div>
+</body>
+</html>
